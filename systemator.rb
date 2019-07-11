@@ -7,6 +7,7 @@ class Vapor < Formula
   depends_on "libssh2"
 
   def install
+    system "mv macOS systemator"
     bin.install "systemator"
   end
 end
